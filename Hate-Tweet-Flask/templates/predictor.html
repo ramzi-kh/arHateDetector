@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <title>Hate Tweet Detector</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/css/util.css">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
+<!--===============================================================================================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <style>
+    body{
+      background-size: auto;
+      background-position: 95% 10%, 5% 10%;
+      /* background-position: right center, left center; */
+      background-size: 20%;
+      background-attachment: inherit;
+      background-repeat: no-repeat, no-repeat;
+      background-color: #E6E2E1;
+      font-family: 'Work Sans', sans-serif;
+    }
+    h1 { color: #1878f5; }
+
+  </style>
+
+  <div id="example1" class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100">
+          <div style="max-width:25%; margin-left: auto; margin-right: auto;">
+            <center>
+              
+            </center>
+          </div>
+
+  <form action="/">
+    <div style="text-align: center;" id="tweet-form">
+      <br>
+        <h1>Hate Tweet Classifier</h1>
+        <br>
+        <br>
+        <br>
+        <h2>Would you classify this as a hate or non-hate tweet?  See if you pass muster against an automated tweet detector.</h2>
+        <br>
+        <br>
+        <br>
+        <center>
+          <input align = "center" type="text" name="chat_in" autofocus="autofocus" value="{{x_input}}" maxlength="500" id="rcorners2" placeholder="Enter tweet text here">
+        </center>
+    <br>
+    <!-- Submit button -->
+    <center>
+    <input align="center" type="submit" value="Predict" method="get" id="rcorners1">
+  </center>
+    <br>
+</div>
+  </form>
+
+
+  </p>
+          <br>
+
+          <table>
+
+            <thead>
+              <tr class="table100-head">
+                <th class="column1">Tweet Input</th>
+                <th class="column1">Hate Prediction</th>
+              </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                  <td rowspan="6" class="column1">{{ chat_in }}</td>
+                  <td class="column1">{{ prediction_class }}</td>
+                </tr>
+                
+                
+            </tbody>
+          </table>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div style="text-align: center; color: #808080;line-height: 1.2em">
+          <p>Built by <a href="https://github.com/ramzi-kh">Ramzi Khezzar</a></p>
+          </div>          
+        </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--===============================================================================================-->
+  <script src="static/js/main.js"></script>
+
+</body>
+</html>
