@@ -2,7 +2,7 @@
 
 This repository contains all the datasets used in our project. In addition to the source code used to implement the models. If you use our work please cite us.
 
-Khezzar, R., Moursi, A. & Al Aghbari, Z. arHateDetector: detection of hate speech from standard and dialectal Arabic Tweets. Discov Internet Things 3, 1 (2023). https://doi.org/10.1007/s43926-023-00030-9 
+"Khezzar, R., Moursi, A. & Al Aghbari, Z. arHateDetector: detection of hate speech from standard and dialectal Arabic Tweets. Discov Internet Things 3, 1 (2023). https://doi.org/10.1007/s43926-023-00030-9"
 
 
 # Datasets
@@ -19,7 +19,7 @@ The following table summarises the datsets we used to compile our own. If you us
 |[AraCOVID19-MFH: Arabic COVID-19 Multi-label Fake News & Hate Speech Detection Dataset](https://www.sciencedirect.com/science/article/pii/S1877050921012059) (Hadj Ameur & Aliane, PCS 2021)|aracovid        |Algerian   |9,198    |https://github.com/MohamedHadjAmeur/AraCOVID19-MFH|
 |Wajid Hassan Moosa, &amp; Najiba. (2022). <i>Multi-lingual HateSpeech Dataset</i> [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DS/2260058   |multi           |Gulf       |4,621    |https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hatespeech-dataset?resource=download|
 |[Multilingual and Multi-Aspect Hate Speech Analysis](https://aclanthology.org/D19-1474) (Ousidhoum et al., EMNLP-IJCNLP 2019)  |latest          |Gulf       |3,353    |https://huggingface.co/datasets/nedjmaou/MLMA_hate_speech|
-|[arHateDetector: detection of hate speech from standard and dialectal Arabic Tweets](https://doi.org/10.1007/s43926-023-00030-9) (Khezzar et al., DIT 2023)  |total           |Multi      |34,107   ||
+|[arHateDetector: detection of hate speech from standard and dialectal Arabic Tweets](https://doi.org/10.1007/s43926-023-00030-9) (Khezzar et al., DIT 2023)  |total           |Multi      |34,107   |https://github.com/ramzi-kh/arHateDetector/blob/main/Datasets/arHateDataset.csv|
 
 
 # Framework
