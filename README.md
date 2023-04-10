@@ -1,8 +1,11 @@
 # arHateDetector
 
-This repository contains all the datasets used in our project. In addition to the source code used to implement the models.
+This repository contains all the datasets used in our project. In addition to the source code used to implement the models. If you use our work please cite us.
 
-# Datasets:
+Khezzar, R., Moursi, A. & Al Aghbari, Z. arHateDetector: detection of hate speech from standard and dialectal Arabic Tweets. Discov Internet Things 3, 1 (2023). https://doi.org/10.1007/s43926-023-00030-9 
+
+
+# Datasets
 
 The following table summarises the datsets we used to compile our own. If you use them seperatley make sure to cite the original authors as well.
 
@@ -18,11 +21,12 @@ The following table summarises the datsets we used to compile our own. If you us
 |[Multilingual and Multi-Aspect Hate Speech Analysis](https://aclanthology.org/D19-1474) (Ousidhoum et al., EMNLP-IJCNLP 2019)  |latest          |Gulf       |3,353    |https://huggingface.co/datasets/nedjmaou/MLMA_hate_speech|
 |[arHateDetector: detection of hate speech from standard and dialectal Arabic Tweets](https://doi.org/10.1007/s43926-023-00030-9) (Khezzar et al., DIT 2023)  |total           |Multi      |34,107   ||
 
+
 # Framework
+
 ![framewprk](https://user-images.githubusercontent.com/101663578/230899077-cbc6e942-b3b8-4a7c-9038-c9bf227afe11.JPG)
 
 # Results
+
 ![results](https://user-images.githubusercontent.com/101663578/230899090-df47fe2b-0721-4b94-8905-ea80b2a1cec8.JPG)
 
-
-https://rdcu.be/c9xKl
